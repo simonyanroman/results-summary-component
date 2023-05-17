@@ -37,7 +37,6 @@ async function request() {
   );
 
   overallScore.textContent = average(scoresArr);
-  console.log(overallScore.textContent);
 }
 
 request();
